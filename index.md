@@ -36,7 +36,7 @@ ___
 
 | Period    | Details                                                                                                                                                                             |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024-2025 | **Cybersecurity bootcamp**: Professional training (BeCode)                                                                                                                          |
+| 2024-2025 | **Cybersecurity bootcamp** Professional training (BeCode)                                                                                                                           |
 | 2019      | **Social and Intercultural Psychology** Master’s degree (ULB)                                                                                                                       |
 | 2022      | Master’s thesis (High distinction): “Loving in the era of unbridled capitalism: Design of a scale to measure the commodification of relationships on dating sites and applications” |
 | 2016-2019 | **Sciences of Psychology and Education** Bachelor’s degree (ULB)                                                                                                                    |
