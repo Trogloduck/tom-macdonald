@@ -1,5 +1,4 @@
-# Tom Macdonald  
-## Cybersecurity Analyst  
+# Tom Macdonald  - Cybersecurity Analyst  
 
 ---
 
