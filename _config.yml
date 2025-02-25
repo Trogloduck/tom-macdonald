@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: Tom Macdonald
-description: Welcome to my personal website, hosted on GitHub Pages! This site acts as a dynamic online resume, highlighting my skills, educational background, and professional journey.
+description: Welcome to my personal website, hosted on GitHub Pages! This site acts as a dynamic online resume, highlighting my skills, educational background, and professional journey.\br
 Explore my projects, achievements, and experiences to get a comprehensive view of my expertise and passion for cybersecurity!
