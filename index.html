@@ -13,13 +13,15 @@ layout: default
             background: linear-gradient(to right, #14935C, #155A97);
             padding: 15px;
             width: 100vw; /* Use viewport width to ensure it spans the entire width of the page */
-            position: relative; /* Ensure it stays within the viewport */
+            position: fixed; /* Make the navigation bar fixed at the top */
+            top: 0; /* Position it at the top of the viewport */
             left: 50%;
             right: 50%;
             margin-left: -50vw;
             margin-right: -50vw;
             box-sizing: border-box; /* Ensure padding is included in the width */
             text-align: center; /* Center the text */
+            z-index: 1000; /* Ensure it stays above other content */
         }
         nav a {
             color: white;
@@ -31,6 +33,9 @@ layout: default
             text-decoration: underline;
             background-color: rgba(255, 255, 255, 0.315);
             border-radius: 1px;
+        }
+        body {
+            padding-top: 60px; /* Add padding to the top of the body to prevent content from being hidden behind the fixed nav */
         }
     </style>
 </head>
