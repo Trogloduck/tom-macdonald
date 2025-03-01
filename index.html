@@ -12,7 +12,12 @@ layout: default
         nav {
             background: linear-gradient(to right, #14935C, #155A97);
             padding: 15px;
-            width: 100%;
+            width: 100vw; /* Use viewport width to ensure it spans the entire width of the page */
+            position: relative; /* Ensure it stays within the viewport */
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
             box-sizing: border-box; /* Ensure padding is included in the width */
         }
         nav a {
