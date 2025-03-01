@@ -13,9 +13,9 @@ layout: default
         nav {
             display: flex;
             justify-content: space-around;
-            <!-- gradient for the background color from #15935E to #155A96 with opacity at 20% -->
-            background-color: linear-gradient(90deg, #15935E, #155A96) 20%;
             padding: 0em;
+            position: relative;
+            z-index: 1;
         }
         nav a {
             text-decoration: none;
@@ -30,10 +30,21 @@ layout: default
         .section {
             padding: 1em;
         }
+        .nav-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3em; /* Adjust the height as needed */
+            background: linear-gradient(to right, #14935C, #155A97);
+            z-index: 0;
+        }
     </style>
 
 </head>
 <body>
+    <!-- Background for the navigation bar -->
+    <div class="nav-background"></div>
     <!-- Navigation bar with buttons leading to each section -->
     <nav>
         <a href="#professional-profile">Professional Profile</a>
@@ -60,7 +71,7 @@ layout: default
     </section>
 
     <hr>
-    <section id="technical-skills" class="section">
+    <section id="technical-skills" class="section"></section>
         <h2>Technical Skills</h2>
         <ul>
             <li>Programming: Python, Bash, HTML, CSS, PHP, (No)SQL, KQL</li>
