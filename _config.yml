@@ -2,5 +2,5 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: Tom Macdonald - Cybersecurity Analyst
+title: Tom Macdonald - Cryptography Geek
 description: "Welcome to my online resume! Expore it with the navigation bar at the top of the page, or at your own convenience."
